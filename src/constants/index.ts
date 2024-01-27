@@ -129,7 +129,7 @@ const technologies = [
 const experiences: TExperience[] = [
   {
     title: "Frontend Enginner",
-    companyName: "aedu+",
+    companyName: "aedu+ (Contract)",
     icon: aedu,
     iconBg: "#383E56",
     date: "June 2023 - Now",
@@ -147,7 +147,7 @@ const experiences: TExperience[] = [
   },
   {
     title: "Frontend Developer",
-    companyName: "STRT Button",
+    companyName: "STRT Button (Contract)",
     icon: strt,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
@@ -168,7 +168,7 @@ const experiences: TExperience[] = [
     icon: armada,
     iconBg: "#383E56",
     date: "August 2022 - Feb 2023",
-    link: 'https://www.strtbutton.com/',
+    link: 'https://mufidahgroup.com/',
     points: [
       "Create HRIS Management Project with Vuejs for Frontend and Expressjs for the Backend.",
       "Develop and maintained web application systems.",
