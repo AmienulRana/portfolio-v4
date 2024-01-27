@@ -133,6 +133,7 @@ const experiences: TExperience[] = [
     icon: aedu,
     iconBg: "#383E56",
     date: "June 2023 - Now",
+    link:'https://learning.aedu.id/about-us',
     points: [
       "Create website education and website community for Aedu.",
       "Developed and maintained responsive and user-friendly web applications.",
@@ -150,6 +151,7 @@ const experiences: TExperience[] = [
     icon: strt,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
+    link: 'https://www.strtbutton.com/',
     points: [
       "Create Decentralized Applications with Next Js",
       "Developed and maintained responsive and user-friendly web applications",
@@ -166,6 +168,7 @@ const experiences: TExperience[] = [
     icon: armada,
     iconBg: "#383E56",
     date: "August 2022 - Feb 2023",
+    link: 'https://www.strtbutton.com/',
     points: [
       "Create HRIS Management Project with Vuejs for Frontend and Expressjs for the Backend.",
       "Develop and maintained web application systems.",
@@ -176,10 +179,11 @@ const experiences: TExperience[] = [
   },
   {
     title: "Full Stack Developer",
-    companyName: "DILo Medan (Internship)",
+    companyName: "DILo Medan (Internship) *now name of company is indigo",
     icon: dilo,
     iconBg: "#E6DEDD",
     date: "July 2021 - Oct 2021 ",
+    link: 'https://indigo.id/',
     points: [
       "Build and maintaince website using Reactjs.",
       "Collaborate with other Developers and UI/UX to update the website and create new features.",
