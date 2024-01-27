@@ -25,7 +25,7 @@ export const config = {
       h2: "Work Experience.",
     },
     works: {
-      p: "My work",
+      p: "My Portfolio",
       h2: "Projects.",
       content: `Following projects showcases my skills and experience through
     real-world examples of my work. Each project is briefly described with
