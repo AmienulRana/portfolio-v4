@@ -7,7 +7,7 @@ import { TypedArray } from "three";
 const Stars = (props: any) => {
   const ref = useRef<THREE.Points>();
   const [sphere] = useState<TypedArray>(() =>
-    random.inSphere(new Float32Array(5001), { radius: 1.2 })
+    random.inSphere(new Float32Array(props.sphere || 1900), { radius: 1.2 })
   );
 
   useFrame((_state, delta) => {
@@ -32,12 +32,12 @@ const Stars = (props: any) => {
   );
 };
 
-const StarsCanvas = () => {
+const StarsCanvas = ({sphere}: {sphere?: number}) => {
   return (
     <div className="absolute inset-0 z-[-1] h-auto w-full">
       <Canvas camera={{ position: [0, 0, 1] }}>
         <Suspense fallback={null}>
-          <Stars />
+          <Stars sphere={sphere} />
         </Suspense>
 
         <Preload all />
