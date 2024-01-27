@@ -1,6 +1,28 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../../constants/styles';
+import { HiDownload } from 'react-icons/hi';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithubSquare, FaWhatsappSquare } from 'react-icons/fa';
+
+interface ISosmedLink {
+  href:string;
+  ariaLabel:string;
+  Icon: any
+}
+
+const SosmedLink = ({ href, ariaLabel, Icon }: ISosmedLink) => {
+  return (
+    <a
+      className="bg-white p-4 text-gray-700 hover:text-[#915EFF] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+      href={href}
+      target="_blank"
+      aria-label={ariaLabel}
+    >
+      <Icon />
+    </a>
+  );
+};
 
 const Hero = () => {
   return (
@@ -22,6 +44,20 @@ const Hero = () => {
             <span className="text-[#915EFF]">develop</span> for the web and mobile application.{' '}
             <br className="hidden sm:block" />
           </p>
+          <div className="flex gap-5 mt-5 flex-wrap">
+            <a
+              className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+              href="/assets/my_cv.pdf"
+              download
+              aria-label="download cv amienul rana"
+            >
+              Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+            </a>
+
+            <SosmedLink href='https://www.linkedin.com/in/amienulrana/' ariaLabel={'Amienul Rana Linkedin'} Icon={BsLinkedin}/>
+            <SosmedLink href='https://github.com/AmienulRana' ariaLabel={'Amienul Rana Github'} Icon={FaGithubSquare}/>
+            <SosmedLink href='https://wa.me/6285260298204?text=Hello Amienul' ariaLabel={'Amienul Rana Whatsapp'} Icon={FaWhatsappSquare}/>
+          </div>
         </div>
       </div>
 
