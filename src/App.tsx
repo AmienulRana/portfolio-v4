@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 
 import {
+  About,
   Hero,
   Navbar,
 } from "./components";
@@ -21,6 +22,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+        <About />
       </div>
     </BrowserRouter>
   );
