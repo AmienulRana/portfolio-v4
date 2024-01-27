@@ -226,7 +226,7 @@ const projects: TProject[] = [
       },
     ],
     image: callyuk,
-    sourceCodeLink: "https://learning.aedu.id/",
+    sourceCodeLink: "https://amienulrana-v3.vercel.app/callyuk",
   },
   {
     name: "Learning Course",
@@ -342,7 +342,7 @@ const projects: TProject[] = [
       },
     ],
     image: app_aedu,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://expo.dev/accounts/amienulrana/projects/aedu-plus/builds/c32d6b4f-b7d8-41ff-acb7-b6ebd2523479",
   },
   {
     name: "Movie app",
@@ -371,7 +371,7 @@ const projects: TProject[] = [
       },
     ],
     image: movie_app,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://expo.dev/accounts/amienulrana/projects/app-ui/builds/73b3a127-9092-431b-8de6-9368860f84e3",
   },
   {
     name: "HRIS Management",
@@ -400,7 +400,7 @@ const projects: TProject[] = [
       },
     ],
     image: hris,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://mufidahgroup.com/",
   },
   {
     name: "Recipe App",
@@ -429,7 +429,7 @@ const projects: TProject[] = [
         },
       ],
     image: receipe,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://amienulrana-v3.vercel.app/notfound",
   },
   {
     name: "Marketplace",
@@ -458,7 +458,7 @@ const projects: TProject[] = [
         },
       ],
     image: marketplace,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://marketplace-one-blue.vercel.app/",
   },
   {
     name: "Topup game",
@@ -487,7 +487,7 @@ const projects: TProject[] = [
         },
       ],
     image: topup_game,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://topupgame-pearl.vercel.app/",
   },  
   {
     name: "Car Rental",
@@ -512,7 +512,7 @@ const projects: TProject[] = [
         },
       ],
     image: car_rental,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://cars-rental-v2-amienulrana.vercel.app/",
   },
   {
     name: "Invitation Digital",
@@ -537,7 +537,7 @@ const projects: TProject[] = [
         },
       ],
     image: invitation,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://amienulrana-v3.vercel.app/notfound",
   },
   {
     name: "Netflix Clone",
@@ -570,7 +570,7 @@ const projects: TProject[] = [
         },
       ],
     image: netflix,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://movie-app-amienul.vercel.app/auth",
   },
   {
     name: "Landing Page",
@@ -595,7 +595,7 @@ const projects: TProject[] = [
         },
       ],
     image: landing_page,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://amienulrana.github.io/companyprofile/",
   },
   {
     name: "Online Shop",
@@ -620,7 +620,7 @@ const projects: TProject[] = [
         },
       ],
     image: online_shop,
-    sourceCodeLink: "https://creo-defi.vercel.app/",
+    sourceCodeLink: "https://amienulrana.github.io/hefa-store/",
   },
 
 ];
