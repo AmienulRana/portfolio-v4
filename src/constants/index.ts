@@ -226,7 +226,7 @@ const projects: TProject[] = [
       },
     ],
     image: callyuk,
-    sourceCodeLink: "https://call-yuk.vercel.app/",
+    sourceCodeLink: "https://amienulrana-v3.vercel.app/callyuk",
   },
   {
     name: "Learning Course",
