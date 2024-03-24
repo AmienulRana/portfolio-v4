@@ -23,7 +23,8 @@ import {
   landing_page,
   online_shop,
   topup_game,
-  callyuk
+  callyuk,
+  ansuransi
 } from "../assets";
 
 
@@ -227,6 +228,27 @@ const projects: TProject[] = [
     ],
     image: callyuk,
     sourceCodeLink: "https://amienulrana-v3.vercel.app/callyuk",
+  },
+  {
+    name: "Insurance Web",
+    description:
+      "A comprehensive platform tailored for retired clients of BNI Bank. Seamlessly manage insurance needs online, including swift claim processing. Enjoy a user-friendly interface designed for convenience.",
+    tags: [
+      {
+        name: "next-js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ansuransi,
+    sourceCodeLink: "https://ydds.lab.web.id",
   },
   {
     name: "Learning Course",

@@ -20,6 +20,7 @@ import marketplace from './projects/marketplace.webp';
 import online_shop from './projects/hefa store.webp';
 import car_rental from './projects/car-rental-v2.webp';
 import topup_game from './projects/topupgame.webp';
+import ansuransi from './projects/ansuransi.png'
 
 export {
   strt,
@@ -40,5 +41,6 @@ export {
   receipe,
   invitation,
   topup_game, callyuk,
-  github
+  github,
+  ansuransi
 };
