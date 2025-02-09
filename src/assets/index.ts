@@ -20,7 +20,9 @@ import marketplace from './projects/marketplace.webp';
 import online_shop from './projects/hefa store.webp';
 import car_rental from './projects/car-rental-v2.webp';
 import topup_game from './projects/topupgame.webp';
-import ansuransi from './projects/ansuransi.png'
+import ansuransi from './projects/ansuransi.png';
+import topupnolimit from './projects/topupnolimit.png';
+import gopay from './projects/gopaygame.png';
 
 export {
   strt,
@@ -40,7 +42,10 @@ export {
   car_rental,
   receipe,
   invitation,
-  topup_game, callyuk,
+  topup_game,
+  callyuk,
   github,
-  ansuransi
+  ansuransi,
+  topupnolimit,
+  gopay,
 };

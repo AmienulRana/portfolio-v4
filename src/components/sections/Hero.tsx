@@ -2,13 +2,12 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../../constants/styles';
 import { HiDownload } from 'react-icons/hi';
-import { BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare, FaWhatsappSquare } from 'react-icons/fa';
 
 interface ISosmedLink {
-  href:string;
-  ariaLabel:string;
-  Icon: any
+  href: string;
+  ariaLabel: string;
+  Icon: any;
 }
 
 const SosmedLink = ({ href, ariaLabel, Icon }: ISosmedLink) => {
@@ -47,16 +46,23 @@ const Hero = () => {
           <div className="flex gap-5 mt-5 flex-wrap">
             <a
               className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-              href="/assets/my_cv.pdf"
-              download
+              href="https://amienulrana-cv.tiiny.site/"
+              target="_blank"
               aria-label="download cv amienul rana"
             >
               Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
             </a>
 
-            <SosmedLink href='https://www.linkedin.com/in/amienulrana/' ariaLabel={'Amienul Rana Linkedin'} Icon={BsLinkedin}/>
-            <SosmedLink href='https://github.com/AmienulRana' ariaLabel={'Amienul Rana Github'} Icon={FaGithubSquare}/>
-            <SosmedLink href='https://wa.me/6285260298204?text=Hello Amienul' ariaLabel={'Amienul Rana Whatsapp'} Icon={FaWhatsappSquare}/>
+            <SosmedLink
+              href="https://github.com/AmienulRana"
+              ariaLabel={'Amienul Rana Github'}
+              Icon={FaGithubSquare}
+            />
+            <SosmedLink
+              href="https://wa.me/6285260298204?text=Hello Amienul"
+              ariaLabel={'Amienul Rana Whatsapp'}
+              Icon={FaWhatsappSquare}
+            />
           </div>
         </div>
       </div>

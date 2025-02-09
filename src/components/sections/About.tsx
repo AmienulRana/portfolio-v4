@@ -13,11 +13,11 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="text-secondary mt-4 max-w-3xl text-[17px] leading-[30px]"
       >
-        As a frontend developer with 2 years of experience, I am skilled in several modern
-        technologies, including React.js, Next.js, Vue.js, and GraphQL. I am also proficient in
-        Typescript and have experience with Jest for unit testing and cypress for E2E testing. I am
-        passionate about creating user-friendly and intuitive interfaces that enhance the user
-        experience. I am always looking to learn new technologies.
+        Highly motivated and results-oriented Frontend developer with 3 years of experience building
+        usercentricweb applications. Adept in React.js, Next.js, Vue.js, Nuxt.js, Typescript and
+        React Native, I possess a strongunderstanding of best practices for unit and end-to-end
+        testing (Jest and Cypress) to deliver high- qualityand performant applications. Passionate
+        about crafting intuitive and visually appealing UIs that elevate theuser experience.
       </motion.p>
     </>
   );
