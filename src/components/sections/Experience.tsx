@@ -1,3 +1,4 @@
+/* eslint-disable no-constant-condition */
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 
@@ -11,6 +12,7 @@ import { config } from '../../constants/config';
 
 const ExperienceCard: React.FC<TExperience> = experience => {
   return (
+    // @ts-ignore
     <VerticalTimelineElement
       contentStyle={{
         background: '#1d1836',
@@ -61,11 +63,14 @@ const Experience = () => {
       <Header useMotion={true} {...config.sections.experience} />
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard key={index} {...experience} />
-          ))}
-        </VerticalTimeline>
+        {true ? (
+          // @ts-ignore
+          <VerticalTimeline>
+            {experiences.map((experience, index) => (
+              <ExperienceCard key={index} {...experience} />
+            ))}
+          </VerticalTimeline>
+        ) : null}
       </div>
     </>
   );
